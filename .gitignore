@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Node/plugin build outputs
+node_modules
+main.js
+*.hot-update.json

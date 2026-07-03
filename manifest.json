@@ -1,0 +1,9 @@
+{
+	"id": "obsidian-update-progress",
+	"name": "Update Progress",
+	"version": "0.1.0",
+	"minAppVersion": "1.7.2",
+	"description": "Render progress update buttons that check off completed quiz-block lessons in a course TOC.",
+	"author": "Jake",
+	"isDesktopOnly": true
+}

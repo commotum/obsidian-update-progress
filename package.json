@@ -1,0 +1,25 @@
+{
+	"name": "obsidian-update-progress",
+	"version": "0.1.0",
+	"description": "Update lesson progress checkboxes from quiz-blocks state.",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"keywords": [
+		"obsidian",
+		"progress",
+		"quiz-blocks"
+	],
+	"author": "Jake",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^16.11.6",
+		"esbuild": "0.17.3",
+		"obsidian": "latest",
+		"tslib": "2.4.0",
+		"typescript": "^5.9.3"
+	}
+}
