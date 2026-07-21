@@ -13,3 +13,4 @@ wheels/
 node_modules
 main.js
 *.hot-update.json
+.DS_Store
